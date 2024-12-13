@@ -22,6 +22,15 @@ copyright = "Monicia"
 [params.darkmode]
   enable = true
 
+[params.umages]
+  favicon           = "assets/images/favicon.ico"
+  searchImageL      = "assets/images/bg-dna.jpg"		# 搜索部分浅色背景图
+  searchImageD      = "assets/images/bg-dna.jpg"		# 搜索部分深色背景图
+  logoExpandLight   = "assets/images/bt8-expand-light.png"
+  logoExpandDark    = "assets/images/bt8-expand-dark.png"
+  logoCollapseLight = "assets/images/favicon.png"
+  logoCollapseDark  = "assets/images/favicon.png"
+
 #主页菜单栏显示在线编辑按钮（编辑github文件，适用于自动化部署的情况）
 [params.edit]
   # true显示按钮，false不显示
